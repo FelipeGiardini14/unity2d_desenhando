@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 87a5fa9387036b84499b9cd1baf968a8
+  - enabled: 1
+    path: Assets/Scenes/SelectFase.unity
+    guid: 88d4909f20b1b824baa0445b0ce257df
+  - enabled: 1
+    path: Assets/Scenes/Fases/Park1.unity
+    guid: 9b524fcded2ef104585f6eb0ead8b859
+  - enabled: 1
+    path: Assets/Scenes/Fases/Street2.unity
+    guid: 5a525aa2f72a68546b7460b9525fcdd3
+  - enabled: 1
+    path: Assets/Scenes/Fases/Desert3.unity
+    guid: 171981e8495d17a49b78eec93476d865
+  - enabled: 0
+    path: Assets/Scenes/SelectFase_Backup.unity
+    guid: 4a7a0b5f28ae50f4482cb2573ce0342b
+  m_configObjects: {}
