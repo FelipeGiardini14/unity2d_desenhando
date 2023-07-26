@@ -11,6 +11,7 @@ public class BicVerm : MonoBehaviour
     public GameObject colisaoOff2;
     public GameObject colisaoOff3;
     public GameObject colisaoOff4;
+    public GameObject colisaoOff5;
 
     public GameObject derrotaUI;
     public GameObject canvasUI;
@@ -44,6 +45,7 @@ public class BicVerm : MonoBehaviour
         Physics2D.IgnoreCollision(colisaoOff2.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         Physics2D.IgnoreCollision(colisaoOff3.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         Physics2D.IgnoreCollision(colisaoOff4.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        Physics2D.IgnoreCollision(colisaoOff5.GetComponent<Collider2D>(), GetComponent<Collider2D>());
     }
 
     void OnCollisionEnter2D(Collision2D outro)

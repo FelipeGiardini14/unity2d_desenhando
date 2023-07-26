@@ -70,13 +70,22 @@ public class BicAzul : MonoBehaviour
             punicao = false;
             flip();
         }
-
         if (outro.gameObject.CompareTag("obstaculos2") && transform.position.y < -1.7 && punicao == false)
         {
             punicao = true;
             flip();
         }
         else if (outro.gameObject.CompareTag("obstaculos2") && transform.position.y < -1.7 && punicao == true)
+        {
+            punicao = false;
+            flip();
+        }
+        if (outro.gameObject.CompareTag("obstaculos4") && transform.position.y < 3.7 && punicao == false)
+        {
+            punicao = true;
+            flip();
+        }
+        else if (outro.gameObject.CompareTag("obstaculos4") && transform.position.y < 3.7 && punicao == true)
         {
             punicao = false;
             flip();
