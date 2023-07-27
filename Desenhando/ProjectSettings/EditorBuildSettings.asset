@@ -20,7 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fases/Desert3.unity
     guid: 171981e8495d17a49b78eec93476d865
+  - enabled: 1
+    path: Assets/Scenes/Fases/Hell4.unity
+    guid: 926fe5e632e23a941a4fb14e61893af6
   - enabled: 0
-    path: Assets/Scenes/SelectFase_Backup.unity
-    guid: 4a7a0b5f28ae50f4482cb2573ce0342b
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

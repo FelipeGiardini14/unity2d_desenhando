@@ -11277,6 +11277,10 @@ PrefabInstance:
       objectReference: {fileID: 4821710037863304349, guid: 871e8cd4e66ebe044be0f7dfbb024c2e,
         type: 3}
     - target: {fileID: 151452354, guid: aa5a40c4cfa47014abbef19c7baad002, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 4824150691582592208}
+    - target: {fileID: 151452354, guid: aa5a40c4cfa47014abbef19c7baad002, type: 3}
       propertyPath: canvasUI
       value: 
       objectReference: {fileID: 1683857275}
@@ -11359,6 +11363,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa5a40c4cfa47014abbef19c7baad002, type: 3}
+--- !u!95 &4824150691582592208 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4824150691148951271, guid: aa5a40c4cfa47014abbef19c7baad002,
+    type: 3}
+  m_PrefabInstance: {fileID: 4824150691582592207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6160947214189843113
 PrefabInstance:
   m_ObjectHideFlags: 0

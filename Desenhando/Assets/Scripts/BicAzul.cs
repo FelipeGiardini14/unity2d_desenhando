@@ -14,6 +14,8 @@ public class BicAzul : MonoBehaviour
     public GameObject derrotaUI;
     public GameObject canvasUI;
 
+    public Animator animator;
+
     bool punicao = false;
 
     void Start()
@@ -96,6 +98,8 @@ public class BicAzul : MonoBehaviour
             derrotaUI.SetActive(true);
             canvasUI.SetActive(false);
             StartCoroutine(PauseCoroutine());
+
+            animator.SetTrigger("Dead");
         }
 
         // Linha de chegada
