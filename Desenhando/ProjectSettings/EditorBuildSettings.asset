@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fases/Hell4.unity
     guid: 926fe5e632e23a941a4fb14e61893af6
+  - enabled: 1
+    path: Assets/Scenes/Fases/Snow5.unity
+    guid: b144d6d6aac5233468db01d489bca543
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
