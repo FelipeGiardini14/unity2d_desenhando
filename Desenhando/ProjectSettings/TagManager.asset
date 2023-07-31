@@ -16,7 +16,7 @@ TagManager:
   - retomarAnim
   - flipMenu
   - obstaculos3
-  - obstaculos4
+  - obstaculos_Dead
   layers:
   - Default
   - TransparentFX

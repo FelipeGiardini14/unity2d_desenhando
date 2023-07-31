@@ -29,7 +29,11 @@ public class Line : MonoBehaviour
 			Destroy(gameObject);
 
 		if (pointsCount > 120)
-			lineRenderer.SetColors(corBegin, corEnd);
+        {
+			//lineRenderer.SetColors(corBegin, corEnd);
+			lineRenderer.startColor = corBegin;
+			lineRenderer.endColor = corEnd;
+		}
 		if (pointsCount > 150)
 			Destroy(gameObject);
 	}

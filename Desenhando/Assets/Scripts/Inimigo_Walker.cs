@@ -2,14 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Passaro : MonoBehaviour
+public class Inimigo_Walker : MonoBehaviour
 {
     public float vel = 3f;
-
-    void Start()
-    {
-        
-    }
 
     void Update()
     {

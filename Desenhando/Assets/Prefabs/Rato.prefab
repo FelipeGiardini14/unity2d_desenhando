@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8420664040722138904}
   m_Layer: 0
   m_Name: Rato
-  m_TagString: obstaculos3
+  m_TagString: obstaculos_Dead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,6 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e7071fb7fb87324d8eb95cf2a6b557a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: 3
-  colisaoOff1: {fileID: 0}
   inimigo: {fileID: 8420664040722138906}
+  colisaoOff1: {fileID: 0}

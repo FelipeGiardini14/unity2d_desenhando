@@ -24,7 +24,6 @@ public class LinesDrawer : MonoBehaviour
 
 	void Update()
 	{
-		//TO DO
 		if (Time.timeScale == 1 && gameObject.layer != LayerMask.NameToLayer("Obstaculo") && gameObject.layer != LayerMask.NameToLayer("UI"))
 		{
 			if (Input.GetMouseButtonDown(0))

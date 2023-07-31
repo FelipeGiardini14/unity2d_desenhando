@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class Carro : MonoBehaviour
 {
-    public float vel = 3f;
-
-    void Start()
-    {
-        
-    }
-
+    private float vel = 8f;
+    
     void Update()
     {
         transform.Translate(new Vector2(vel * Time.deltaTime, 0));

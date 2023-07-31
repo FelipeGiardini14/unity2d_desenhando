@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Inimigo : MonoBehaviour
 {
-    public float vel = 4f;
-    public GameObject colisaoOff1;
+    private float vel = 3f;
     public Transform inimigo;
-    bool punicao = false;
+
+    public GameObject colisaoOff1;
+
+    private bool punicao = false;
 
 
     void Start()
@@ -31,24 +33,12 @@ public class Inimigo : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D outro)
     {
-        if (outro.gameObject.CompareTag("obstaculos4") && transform.position.y < 3.7 && punicao == false)
+        if (outro.gameObject.CompareTag("obstaculos3") && transform.position.y < 3.7 && punicao == false)
         {
             punicao = true;
             flip();
         }
-        else if (outro.gameObject.CompareTag("obstaculos4") && transform.position.y < 3.7 && punicao == true)
-        {
-            punicao = false;
-            flip();
-        }
-
-        // Flip Menu
-        if (outro.gameObject.CompareTag("flipMenu") && punicao == false)
-        {
-            punicao = true;
-            flip();
-        }
-        else if (outro.gameObject.CompareTag("flipMenu") && punicao == true)
+        else if (outro.gameObject.CompareTag("obstaculos3") && transform.position.y < 3.7 && punicao == true)
         {
             punicao = false;
             flip();

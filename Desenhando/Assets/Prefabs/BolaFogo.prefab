@@ -28,6 +28,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BolaFogo
       objectReference: {fileID: 0}
+    - target: {fileID: 8958710904866002225, guid: 7b6388e370232c0449396b1dc3c5c92f,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstaculos_Dead
+      objectReference: {fileID: 0}
     - target: {fileID: 8958710904866002231, guid: 7b6388e370232c0449396b1dc3c5c92f,
         type: 3}
       propertyPath: m_RootOrder
