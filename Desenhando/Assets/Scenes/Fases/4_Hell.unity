@@ -815,6 +815,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -996,6 +1001,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -1092,6 +1102,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -1308,6 +1323,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -1430,6 +1450,16 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3094512846436254162, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903761, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: InitialModule.startSize.scalar
@@ -5914,6 +5944,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -8921,6 +8956,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -9294,6 +9334,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -9384,6 +9429,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -9616,6 +9666,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -11603,6 +11658,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
@@ -11699,6 +11759,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
+        type: 3}
+      propertyPath: colisaoOff1
+      value: 
+      objectReference: {fileID: 677872031}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
