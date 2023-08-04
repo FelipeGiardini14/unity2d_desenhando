@@ -10,27 +10,27 @@ PrefabInstance:
     - target: {fileID: 3649095621072309568, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.5102234
+      value: 0.48008543
       objectReference: {fileID: 0}
     - target: {fileID: 3649095621072309568, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.5102234
+      value: 0.22821471
       objectReference: {fileID: 0}
     - target: {fileID: 3649095621072309568, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.01321072
+      value: -0.0018588752
       objectReference: {fileID: 0}
     - target: {fileID: 3649095621072309568, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.14015643
+      value: -0.040052466
       objectReference: {fileID: 0}
     - target: {fileID: 3649095621072309569, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}
       propertyPath: m_Name
-      value: CarroVermelho
+      value: CarroVermelho Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3649095621072309573, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}
@@ -40,12 +40,12 @@ PrefabInstance:
     - target: {fileID: 3649095621072309573, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -66.79
+      value: -65.82832
       objectReference: {fileID: 0}
     - target: {fileID: 3649095621072309573, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.39
+      value: -2.1739883
       objectReference: {fileID: 0}
     - target: {fileID: 3649095621072309573, guid: e9859d44beabb3c4cb5a02a521faaa0b,
         type: 3}

@@ -6041,40 +6041,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 541695329}
     m_Modifications:
-    - target: {fileID: 3094512846436254162, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3094512846436254162, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
-        type: 3}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6835416782805903760, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: colisaoOff1
       value: 
       objectReference: {fileID: 677872031}
-    - target: {fileID: 6835416782805903761, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
       propertyPath: m_Name
       value: BolaFogo_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6835416782805903771, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
-        type: 3}
-      propertyPath: m_TagString
-      value: obstaculos_Dead
       objectReference: {fileID: 0}
     - target: {fileID: 6835416782805903773, guid: 6b36dfa3be2d92d4a9d39c10faccc379,
         type: 3}
