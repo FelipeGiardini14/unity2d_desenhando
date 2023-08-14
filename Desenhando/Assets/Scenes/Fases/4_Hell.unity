@@ -2407,7 +2407,7 @@ GameObject:
   - component: {fileID: 261373568}
   - component: {fileID: 261373567}
   m_Layer: 0
-  m_Name: Final
+  m_Name: Cenario
   m_TagString: Final
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11385,7 +11385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795754524}
   m_Layer: 0
-  m_Name: Background
+  m_Name: BackgroundCeu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
