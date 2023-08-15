@@ -16,8 +16,9 @@ public class LinesDrawer : MonoBehaviour
 	Line currentLine;
 
 	public Camera cam;
+	public AudioSource audioSource;
 
-    void Start()
+	void Start()
 	{
 		cantDrawOverLayerIndex = LayerMask.NameToLayer("Obstaculo");
 	}
@@ -27,13 +28,19 @@ public class LinesDrawer : MonoBehaviour
 		if (Time.timeScale == 1 && gameObject.layer != LayerMask.NameToLayer("Obstaculo") && gameObject.layer != LayerMask.NameToLayer("UI"))
 		{
 			if (Input.GetMouseButtonDown(0))
+			{
 				BeginDraw();
+				audioSource.Play();
+			}
 
 			if (currentLine != null)
 				Draw();
 
 			if (Input.GetMouseButtonUp(0))
+			{
 				EndDraw();
+				audioSource.Stop();
+			}
 		}
 	}
 

@@ -16,6 +16,7 @@ public class BicAzul : MonoBehaviour
 
     public Animator animator;
     private bool punicao = false;
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -66,31 +67,37 @@ public class BicAzul : MonoBehaviour
         {
             punicao = true;
             flip();
+            audioSource.Play();
         }
         else if (outro.gameObject.CompareTag("obstaculos1") && transform.position.y < 0.4 && punicao == true)
         {
             punicao = false;
             flip();
+            audioSource.Play();
         }
         if (outro.gameObject.CompareTag("obstaculos2") && transform.position.y < -1.7 && punicao == false)
         {
             punicao = true;
             flip();
+            audioSource.Play();
         }
         else if (outro.gameObject.CompareTag("obstaculos2") && transform.position.y < -1.7 && punicao == true)
         {
             punicao = false;
             flip();
+            audioSource.Play();
         }
         if (outro.gameObject.CompareTag("obstaculos3") && transform.position.y < 3.7 && punicao == false)
         {
             punicao = true;
             flip();
+            audioSource.Play();
         }
         else if (outro.gameObject.CompareTag("obstaculos3") && transform.position.y < 3.7 && punicao == true)
         {
             punicao = false;
             flip();
+            audioSource.Play();
         }
 
         if (outro.gameObject.CompareTag("obstaculos_Dead"))
@@ -99,6 +106,7 @@ public class BicAzul : MonoBehaviour
             canvasUI.SetActive(false);
             StartCoroutine(PauseCoroutine());
             animator.SetTrigger("Dead");
+            audioSource.Play();
         }
 
         // Linha de chegada
