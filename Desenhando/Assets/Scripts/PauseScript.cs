@@ -9,6 +9,13 @@ public class PauseScript : MonoBehaviour
     private Animator retomarAnim;
     private bool exibir;
 
+    private AudioSource[] allAudioSources;
+
+    private void Start()
+    {
+        allAudioSources = FindObjectsOfType<AudioSource>();
+    }
+
     public void PauseAnim()
     {
         barraAnim = GameObject.FindGameObjectWithTag("barraAnim").GetComponent<Animator> ();
@@ -21,6 +28,7 @@ public class PauseScript : MonoBehaviour
             exibir = true;
 
             Time.timeScale = 0;
+            MuteAllSounds(true);
         }
         else
         {
@@ -29,6 +37,7 @@ public class PauseScript : MonoBehaviour
             exibir = false;
 
             Time.timeScale = 1;
+            MuteAllSounds(false);
         }
     }
 
@@ -36,5 +45,14 @@ public class PauseScript : MonoBehaviour
     {
         SceneManager.LoadScene(Fase);
         Time.timeScale = 1;
+        MuteAllSounds(false); // Certifique-se de que os sons não permaneçam mutados ao mudar de cena
+    }
+
+    private void MuteAllSounds(bool mute)
+    {
+        foreach (AudioSource audioSource in allAudioSources)
+        {
+            audioSource.volume = mute ? 0f : 1f;
+        }
     }
 }

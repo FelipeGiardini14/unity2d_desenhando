@@ -14,6 +14,8 @@ public class BicVerm : MonoBehaviour
     public GameObject derrotaUI;
     public GameObject canvasUI;
 
+    private AudioSource[] allAudioSourcesBicVerm;
+
     void Start()
     {
         colisaoOff();
@@ -24,6 +26,8 @@ public class BicVerm : MonoBehaviour
         transform.Translate(new Vector2(vel * Time.deltaTime, 0));
 
         LimitaRotacao();
+
+        allAudioSourcesBicVerm = FindObjectsOfType<AudioSource>();
     }
 
     void LimitaRotacao()
@@ -52,6 +56,7 @@ public class BicVerm : MonoBehaviour
             derrotaUI.SetActive(true);
             canvasUI.SetActive(false);
             StartCoroutine(PauseCoroutine());
+            MuteAllSoundsBicVerm(true);
         }
     }
 
@@ -65,5 +70,17 @@ public class BicVerm : MonoBehaviour
     private void OnDisable()
     {
         Time.timeScale = 1f;
+        MuteAllSoundsBicVerm(false);
+    }
+
+    private void MuteAllSoundsBicVerm(bool mute)
+    {
+        foreach (AudioSource audioSourceBicVerm in allAudioSourcesBicVerm)
+        {
+            if (audioSourceBicVerm != null)
+            {
+                audioSourceBicVerm.volume = mute ? 0f : 1f;
+            }
+        }
     }
 }

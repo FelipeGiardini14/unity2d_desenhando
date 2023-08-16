@@ -18,6 +18,8 @@ public class BicAzul : MonoBehaviour
     private bool punicao = false;
     public AudioSource audioSource;
 
+    private AudioSource[] allAudioSourcesBicAzul;
+
     void Start()
     {
         colisaoOff();
@@ -35,6 +37,8 @@ public class BicAzul : MonoBehaviour
         }
 
         LimitaRotacao();
+
+        allAudioSourcesBicAzul = FindObjectsOfType<AudioSource>();
     }
 
     void flip()
@@ -107,6 +111,7 @@ public class BicAzul : MonoBehaviour
             StartCoroutine(PauseCoroutine());
             animator.SetTrigger("Dead");
             audioSource.Play();
+            MuteAllSoundsBicAzul(true);
         }
 
         // Linha de chegada
@@ -115,6 +120,7 @@ public class BicAzul : MonoBehaviour
             vitoriaUI.SetActive(true);
             canvasUI.SetActive(false);
             StartCoroutine(PauseCoroutine());
+            MuteAllSoundsBicAzul(true);
             if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("levelsUnlocked_3"))
             {
                 PlayerPrefs.SetInt("levelsUnlocked_3", SceneManager.GetActiveScene().buildIndex);
@@ -144,5 +150,17 @@ public class BicAzul : MonoBehaviour
     private void OnDisable()
     {
         Time.timeScale = 1f;
+        MuteAllSoundsBicAzul(false);
+    }
+
+    private void MuteAllSoundsBicAzul(bool mute)
+    {
+        foreach (AudioSource audioSourceBicAzul in allAudioSourcesBicAzul)
+        {
+            if (audioSourceBicAzul != null)
+            {
+                audioSourceBicAzul.volume = mute ? 0f : 1f;
+            }
+        }
     }
 }
