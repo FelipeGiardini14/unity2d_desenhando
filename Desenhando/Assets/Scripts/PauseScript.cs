@@ -10,8 +10,9 @@ public class PauseScript : MonoBehaviour
     private bool exibir;
 
     private AudioSource[] allAudioSources;
+    private Dictionary<AudioSource, float> originalVolumes = new Dictionary<AudioSource, float>();
 
-    private void Start()
+    private void Update()
     {
         allAudioSources = FindObjectsOfType<AudioSource>();
     }
@@ -52,7 +53,25 @@ public class PauseScript : MonoBehaviour
     {
         foreach (AudioSource audioSource in allAudioSources)
         {
-            audioSource.volume = mute ? 0f : 1f;
+            if (audioSource != null)
+            {
+                if (mute)
+                {
+                    if (!originalVolumes.ContainsKey(audioSource))
+                    {
+                        originalVolumes[audioSource] = audioSource.volume;
+                    }
+                    audioSource.volume = 0f;
+                }
+                else
+                {
+                    if (originalVolumes.ContainsKey(audioSource))
+                    {
+                        audioSource.volume = originalVolumes[audioSource];
+                        originalVolumes.Remove(audioSource);
+                    }
+                }
+            }
         }
     }
 }

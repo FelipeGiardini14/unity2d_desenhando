@@ -131,6 +131,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2119730380}
     m_Modifications:
+    - target: {fileID: 8958710904529157492, guid: 7b6388e370232c0449396b1dc3c5c92f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 8958710904866002225, guid: 7b6388e370232c0449396b1dc3c5c92f,
         type: 3}
       propertyPath: m_Name
@@ -1454,7 +1459,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8ca2f6c02b3cade40a8255811e80fa79, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -9414,6 +9419,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2119730380}
     m_Modifications:
+    - target: {fileID: 8958710904529157492, guid: 7b6388e370232c0449396b1dc3c5c92f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 8958710904866002225, guid: 7b6388e370232c0449396b1dc3c5c92f,
         type: 3}
       propertyPath: m_Name
@@ -9873,6 +9883,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2119730380}
     m_Modifications:
+    - target: {fileID: 8958710904529157492, guid: 7b6388e370232c0449396b1dc3c5c92f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 8958710904866002225, guid: 7b6388e370232c0449396b1dc3c5c92f,
         type: 3}
       propertyPath: m_Name
@@ -14110,6 +14125,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2119730380}
     m_Modifications:
+    - target: {fileID: 8958710904529157492, guid: 7b6388e370232c0449396b1dc3c5c92f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 8958710904866002225, guid: 7b6388e370232c0449396b1dc3c5c92f,
         type: 3}
       propertyPath: m_Name
@@ -16295,6 +16315,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2119730380}
     m_Modifications:
+    - target: {fileID: 8958710904529157492, guid: 7b6388e370232c0449396b1dc3c5c92f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 8958710904866002225, guid: 7b6388e370232c0449396b1dc3c5c92f,
         type: 3}
       propertyPath: m_Name
@@ -17647,6 +17672,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2119730380}
     m_Modifications:
+    - target: {fileID: 8958710904529157492, guid: 7b6388e370232c0449396b1dc3c5c92f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 8958710904866002225, guid: 7b6388e370232c0449396b1dc3c5c92f,
         type: 3}
       propertyPath: m_Name
