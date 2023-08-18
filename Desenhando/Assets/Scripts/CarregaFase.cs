@@ -10,4 +10,9 @@ public class CarregaFase : MonoBehaviour
     {
         SceneManager.LoadScene(Fase);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
