@@ -30,7 +30,6 @@ public class Line : MonoBehaviour
 
 		if (pointsCount > 120)
         {
-			//lineRenderer.SetColors(corBegin, corEnd);
 			lineRenderer.startColor = corBegin;
 			lineRenderer.endColor = corEnd;
 		}

@@ -16,7 +16,6 @@ public class Linguagem : MonoBehaviour
     {
         buttonImage = GetComponent<Image>();
         isImage1 = PlayerPrefs.GetInt("ToggleImageState", 1) == 1; // Carrega o estado salvo do PlayerPrefs
-        //buttonImage.sprite = brasil;
 
         if (isImage1)
         {
@@ -48,12 +47,6 @@ public class Linguagem : MonoBehaviour
         // Salva o estado do botão no PlayerPrefs
         PlayerPrefs.SetInt("ToggleImageState", isImage1 ? 1 : 0);
     }
-    /*
-    public void ChangeLocale()
-    {
-
-    }
-    */
 
     IEnumerator SetLocale(int _localeID)
     {

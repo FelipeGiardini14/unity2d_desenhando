@@ -121,9 +121,9 @@ public class BicAzul : MonoBehaviour
             canvasUI.SetActive(false);
             StartCoroutine(PauseCoroutine());
             MuteAllSoundsBicAzul(true);
-            if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("levelsUnlocked_5"))
+            if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("levelsUnlocked"))
             {
-                PlayerPrefs.SetInt("levelsUnlocked_5", SceneManager.GetActiveScene().buildIndex);
+                PlayerPrefs.SetInt("levelsUnlocked", SceneManager.GetActiveScene().buildIndex);
             }
         }
 

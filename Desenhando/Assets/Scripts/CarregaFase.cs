@@ -20,17 +20,7 @@ public class CarregaFase : MonoBehaviour
 
     public void CarregaContinuar()
     {
-        sceneToContinue = PlayerPrefs.GetInt("levelsUnlocked_5") + 1;
+        sceneToContinue = PlayerPrefs.GetInt("levelsUnlocked") + 1;
         SceneManager.LoadScene(sceneToContinue);
-        /*
-        if (sceneToContinue != 1)
-        {
-            SceneManager.LoadScene(sceneToContinue);
-        }
-        else
-        {
-            return;
-        }
-        */
     }
 }

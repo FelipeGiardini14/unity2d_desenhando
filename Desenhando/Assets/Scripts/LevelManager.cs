@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        levelsUnlocked = PlayerPrefs.GetInt("levelsUnlocked_5", 1);
+        levelsUnlocked = PlayerPrefs.GetInt("levelsUnlocked", 1);
     }
 
     void Update()
