@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Localization.Settings;
 
 public class Linguagem : MonoBehaviour
 {
@@ -20,10 +21,12 @@ public class Linguagem : MonoBehaviour
         if (isImage1)
         {
             buttonImage.sprite = brasil;
+            StartCoroutine(SetLocale(0));
         }
         else
         {
             buttonImage.sprite = inglaterra;
+            StartCoroutine(SetLocale(1));
         }
     }
 
@@ -34,13 +37,27 @@ public class Linguagem : MonoBehaviour
         if (isImage1)
         {
             buttonImage.sprite = brasil;
+            StartCoroutine(SetLocale(0));
         }
         else
         {
             buttonImage.sprite = inglaterra;
+            StartCoroutine(SetLocale(1));
         }
 
         // Salva o estado do botão no PlayerPrefs
         PlayerPrefs.SetInt("ToggleImageState", isImage1 ? 1 : 0);
+    }
+    /*
+    public void ChangeLocale()
+    {
+
+    }
+    */
+
+    IEnumerator SetLocale(int _localeID)
+    {
+        yield return LocalizationSettings.InitializationOperation;
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localeID];
     }
 }

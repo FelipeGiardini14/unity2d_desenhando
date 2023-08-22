@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Idiomas_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 0f7bc39f2cfaec14b81bc4f64cbfeb5b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 97373626368
+    m_Localized: INICIAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268597698560
+    m_Localized: FASES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354216026112
+    m_Localized: CONTINUAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15329789714432
+    m_Localized: PARQUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15403139702784
+    m_Localized: RUA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15407245926400
+    m_Localized: DESERTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15414745341952
+    m_Localized: INFERNO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15419069669376
+    m_Localized: NEVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27675337662464
+    m_Localized: "VIT\xD3RIA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27679603269632
+    m_Localized: DERROTA :(
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27681998217216
+    m_Localized: OBRIGADO POR JOGAR
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

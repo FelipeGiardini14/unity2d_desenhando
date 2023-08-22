@@ -19199,64 +19199,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1020567157}
-    - target: {fileID: 48851387, guid: c21290bafb1b04444a46c0d3850d32f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Carrega
-      objectReference: {fileID: 0}
-    - target: {fileID: 48851387, guid: c21290bafb1b04444a46c0d3850d32f9, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 2_Street
-      objectReference: {fileID: 0}
     - target: {fileID: 2794750839071493307, guid: c21290bafb1b04444a46c0d3850d32f9,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1020567157}
-    - target: {fileID: 2794750839071493307, guid: c21290bafb1b04444a46c0d3850d32f9,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Carrega
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794750839314665788, guid: c21290bafb1b04444a46c0d3850d32f9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1020567157}
     - target: {fileID: 2794750839314665788, guid: c21290bafb1b04444a46c0d3850d32f9,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Carrega
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794750839553043913, guid: c21290bafb1b04444a46c0d3850d32f9,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1020567157}
     - target: {fileID: 2794750839553043913, guid: c21290bafb1b04444a46c0d3850d32f9,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Carrega
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794750839553043913, guid: c21290bafb1b04444a46c0d3850d32f9,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 1_Park
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794750839671650010, guid: c21290bafb1b04444a46c0d3850d32f9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1020567157}
     - target: {fileID: 2794750839671650010, guid: c21290bafb1b04444a46c0d3850d32f9,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Carrega
-      objectReference: {fileID: 0}
-    - target: {fileID: 2794750839671650010, guid: c21290bafb1b04444a46c0d3850d32f9,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 1_Park
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1020567157}
     - target: {fileID: 2794750840295309021, guid: c21290bafb1b04444a46c0d3850d32f9,
         type: 3}
       propertyPath: m_Name
